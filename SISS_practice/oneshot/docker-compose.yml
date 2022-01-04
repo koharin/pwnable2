@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+    oneshot:
+      build:
+        context: ./oneshot/
+        dockerfile: Dockerfile
+      ports:
+        - "8888:8080"
+      command:
+        - /start.sh
