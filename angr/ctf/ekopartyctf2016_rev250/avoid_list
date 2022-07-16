@@ -1,0 +1,141 @@
+  400916:	ff 25 f4 56 20 00    	jmpq   *0x2056f4(%rip)        # 606010 <_GLOBAL_OFFSET_TABLE_+0x10>
+  400920:	ff 25 f2 56 20 00    	jmpq   *0x2056f2(%rip)        # 606018 <setvbuf@GLIBC_2.2.5>
+  40092b:	e9 e0 ff ff ff       	jmpq   400910 <.plt>
+  400930:	ff 25 ea 56 20 00    	jmpq   *0x2056ea(%rip)        # 606020 <printf@GLIBC_2.2.5>
+  40093b:	e9 d0 ff ff ff       	jmpq   400910 <.plt>
+  400940:	ff 25 e2 56 20 00    	jmpq   *0x2056e2(%rip)        # 606028 <fork@GLIBC_2.2.5>
+  40094b:	e9 c0 ff ff ff       	jmpq   400910 <.plt>
+  400950:	ff 25 da 56 20 00    	jmpq   *0x2056da(%rip)        # 606030 <get_flag>
+  40095b:	e9 b0 ff ff ff       	jmpq   400910 <.plt>
+  400960:	ff 25 d2 56 20 00    	jmpq   *0x2056d2(%rip)        # 606038 <write@GLIBC_2.2.5>
+  40096b:	e9 a0 ff ff ff       	jmpq   400910 <.plt>
+  400970:	ff 25 ca 56 20 00    	jmpq   *0x2056ca(%rip)        # 606040 <sleep@GLIBC_2.2.5>
+  40097b:	e9 90 ff ff ff       	jmpq   400910 <.plt>
+  400980:	ff 25 c2 56 20 00    	jmpq   *0x2056c2(%rip)        # 606048 <waitpid@GLIBC_2.2.5>
+  40098b:	e9 80 ff ff ff       	jmpq   400910 <.plt>
+  400990:	ff 25 ba 56 20 00    	jmpq   *0x2056ba(%rip)        # 606050 <memcpy@GLIBC_2.14>
+  40099b:	e9 70 ff ff ff       	jmpq   400910 <.plt>
+  4009a0:	ff 25 b2 56 20 00    	jmpq   *0x2056b2(%rip)        # 606058 <fflush@GLIBC_2.2.5>
+  4009ab:	e9 60 ff ff ff       	jmpq   400910 <.plt>
+  4009b0:	ff 25 aa 56 20 00    	jmpq   *0x2056aa(%rip)        # 606060 <getenv@GLIBC_2.2.5>
+  4009bb:	e9 50 ff ff ff       	jmpq   400910 <.plt>
+  4009c0:	ff 25 a2 56 20 00    	jmpq   *0x2056a2(%rip)        # 606068 <shmat@GLIBC_2.2.5>
+  4009cb:	e9 40 ff ff ff       	jmpq   400910 <.plt>
+  4009d0:	ff 25 9a 56 20 00    	jmpq   *0x20569a(%rip)        # 606070 <read@GLIBC_2.2.5>
+  4009db:	e9 30 ff ff ff       	jmpq   400910 <.plt>
+  4009e0:	ff 25 92 56 20 00    	jmpq   *0x205692(%rip)        # 606078 <atoi@GLIBC_2.2.5>
+  4009eb:	e9 20 ff ff ff       	jmpq   400910 <.plt>
+  4009f0:	ff 25 8a 56 20 00    	jmpq   *0x20568a(%rip)        # 606080 <_exit@GLIBC_2.2.5>
+  4009fb:	e9 10 ff ff ff       	jmpq   400910 <.plt>
+  400a00:	ff 25 82 56 20 00    	jmpq   *0x205682(%rip)        # 606088 <__libc_start_main@GLIBC_2.2.5>
+  400a0b:	e9 00 ff ff ff       	jmpq   400910 <.plt>
+  400a10:	ff 25 7a 56 20 00    	jmpq   *0x20567a(%rip)        # 606090 <close@GLIBC_2.2.5>
+  400a1b:	e9 f0 fe ff ff       	jmpq   400910 <.plt>
+  400a20:	ff 25 d2 55 20 00    	jmpq   *0x2055d2(%rip)        # 605ff8 <__gmon_start__>
+  400a85:	ff e0                	jmpq   *%rax
+  400ad3:	ff e0                	jmpq   *%rax
+  400b0b:	eb 93                	jmp    400aa0 <register_tm_clones>
+  400b21:	e9 7a ff ff ff       	jmpq   400aa0 <register_tm_clones>
+  403ab8:	eb 00                	jmp    403aba <main+0x2f8a>
+  403af4:	eb 00                	jmp    403af6 <main+0x2fc6>
+  403b30:	eb 00                	jmp    403b32 <main+0x3002>
+  403b6c:	eb 00                	jmp    403b6e <main+0x303e>
+  403ba8:	eb 00                	jmp    403baa <main+0x307a>
+  403be4:	eb 00                	jmp    403be6 <main+0x30b6>
+  403c20:	eb 00                	jmp    403c22 <main+0x30f2>
+  403c5c:	eb 00                	jmp    403c5e <main+0x312e>
+  403c98:	eb 00                	jmp    403c9a <main+0x316a>
+  403cd4:	eb 00                	jmp    403cd6 <main+0x31a6>
+  403d10:	eb 00                	jmp    403d12 <main+0x31e2>
+  403d4c:	eb 00                	jmp    403d4e <main+0x321e>
+  403d88:	eb 00                	jmp    403d8a <main+0x325a>
+  403dc4:	eb 00                	jmp    403dc6 <main+0x3296>
+  403e00:	eb 00                	jmp    403e02 <main+0x32d2>
+  403e3c:	eb 00                	jmp    403e3e <main+0x330e>
+  403e78:	eb 00                	jmp    403e7a <main+0x334a>
+  403eb4:	eb 00                	jmp    403eb6 <main+0x3386>
+  403ef0:	eb 00                	jmp    403ef2 <main+0x33c2>
+  403f2c:	eb 00                	jmp    403f2e <main+0x33fe>
+  403f68:	eb 00                	jmp    403f6a <main+0x343a>
+  403fa4:	eb 00                	jmp    403fa6 <main+0x3476>
+  403fe0:	eb 00                	jmp    403fe2 <main+0x34b2>
+  40401c:	eb 00                	jmp    40401e <main+0x34ee>
+  404058:	eb 00                	jmp    40405a <main+0x352a>
+  404094:	eb 00                	jmp    404096 <main+0x3566>
+  4040d0:	eb 00                	jmp    4040d2 <main+0x35a2>
+  40410c:	eb 00                	jmp    40410e <main+0x35de>
+  404148:	eb 00                	jmp    40414a <main+0x361a>
+  404184:	eb 00                	jmp    404186 <main+0x3656>
+  4041c0:	eb 00                	jmp    4041c2 <main+0x3692>
+  4041fc:	eb 00                	jmp    4041fe <main+0x36ce>
+  404238:	eb 00                	jmp    40423a <main+0x370a>
+  404274:	eb 00                	jmp    404276 <main+0x3746>
+  4042b0:	eb 00                	jmp    4042b2 <main+0x3782>
+  4042ec:	eb 00                	jmp    4042ee <main+0x37be>
+  404328:	eb 00                	jmp    40432a <main+0x37fa>
+  404364:	eb 00                	jmp    404366 <main+0x3836>
+  4043a0:	eb 00                	jmp    4043a2 <main+0x3872>
+  4043dc:	eb 00                	jmp    4043de <main+0x38ae>
+  404418:	eb 00                	jmp    40441a <main+0x38ea>
+  404454:	eb 00                	jmp    404456 <main+0x3926>
+  404490:	eb 00                	jmp    404492 <main+0x3962>
+  4044cc:	eb 00                	jmp    4044ce <main+0x399e>
+  404508:	eb 00                	jmp    40450a <main+0x39da>
+  404544:	eb 00                	jmp    404546 <main+0x3a16>
+  404580:	eb 00                	jmp    404582 <main+0x3a52>
+  4045bc:	eb 00                	jmp    4045be <main+0x3a8e>
+  4045f8:	eb 00                	jmp    4045fa <main+0x3aca>
+  404634:	eb 00                	jmp    404636 <main+0x3b06>
+  404670:	eb 00                	jmp    404672 <main+0x3b42>
+  4046ac:	eb 00                	jmp    4046ae <main+0x3b7e>
+  4046e8:	eb 00                	jmp    4046ea <main+0x3bba>
+  404724:	eb 00                	jmp    404726 <main+0x3bf6>
+  404760:	eb 00                	jmp    404762 <main+0x3c32>
+  40479c:	eb 00                	jmp    40479e <main+0x3c6e>
+  4047d8:	eb 00                	jmp    4047da <main+0x3caa>
+  404814:	eb 00                	jmp    404816 <main+0x3ce6>
+  404850:	eb 00                	jmp    404852 <main+0x3d22>
+  40488c:	eb 00                	jmp    40488e <main+0x3d5e>
+  4048c8:	eb 00                	jmp    4048ca <main+0x3d9a>
+  404904:	eb 00                	jmp    404906 <main+0x3dd6>
+  404940:	eb 00                	jmp    404942 <main+0x3e12>
+  40497c:	eb 00                	jmp    40497e <main+0x3e4e>
+  4049b8:	eb 00                	jmp    4049ba <main+0x3e8a>
+  4049f4:	eb 00                	jmp    4049f6 <main+0x3ec6>
+  404a30:	eb 00                	jmp    404a32 <main+0x3f02>
+  404a6c:	eb 00                	jmp    404a6e <main+0x3f3e>
+  404aa8:	eb 00                	jmp    404aaa <main+0x3f7a>
+  404ae4:	eb 00                	jmp    404ae6 <main+0x3fb6>
+  404b20:	eb 00                	jmp    404b22 <main+0x3ff2>
+  404b5c:	eb 00                	jmp    404b5e <main+0x402e>
+  404b98:	eb 00                	jmp    404b9a <main+0x406a>
+  404bd4:	eb 00                	jmp    404bd6 <main+0x40a6>
+  404c10:	eb 00                	jmp    404c12 <main+0x40e2>
+  404c4c:	eb 00                	jmp    404c4e <main+0x411e>
+  404c88:	eb 00                	jmp    404c8a <main+0x415a>
+  404cc4:	eb 00                	jmp    404cc6 <main+0x4196>
+  404d00:	eb 00                	jmp    404d02 <main+0x41d2>
+  404d3c:	eb 00                	jmp    404d3e <main+0x420e>
+  404d78:	eb 00                	jmp    404d7a <main+0x424a>
+  404db4:	eb 00                	jmp    404db6 <main+0x4286>
+  404df0:	eb 00                	jmp    404df2 <main+0x42c2>
+  404e2c:	eb 00                	jmp    404e2e <main+0x42fe>
+  404e68:	eb 00                	jmp    404e6a <main+0x433a>
+  404ea4:	eb 00                	jmp    404ea6 <main+0x4376>
+  404ee0:	eb 00                	jmp    404ee2 <main+0x43b2>
+  404f1c:	eb 00                	jmp    404f1e <main+0x43ee>
+  404f58:	eb 00                	jmp    404f5a <main+0x442a>
+  404f94:	eb 00                	jmp    404f96 <main+0x4466>
+  404fd0:	eb 00                	jmp    404fd2 <main+0x44a2>
+  40500c:	eb 00                	jmp    40500e <main+0x44de>
+  405048:	eb 00                	jmp    40504a <main+0x451a>
+  405084:	eb 00                	jmp    405086 <main+0x4556>
+  4050c0:	eb 00                	jmp    4050c2 <main+0x4592>
+  4050fc:	eb 00                	jmp    4050fe <main+0x45ce>
+  405138:	eb 00                	jmp    40513a <main+0x460a>
+  405174:	eb 00                	jmp    405176 <main+0x4646>
+  4051b0:	eb 00                	jmp    4051b2 <main+0x4682>
+  405277:	eb bf                	jmp    405238 <__afl_store>
+  40544c:	e9 68 ff ff ff       	jmpq   4053b9 <__afl_fork_wait_loop>
+  405531:	e9 02 fd ff ff       	jmpq   405238 <__afl_store>
+  40560a:	e9 41 fc ff ff       	jmpq   405250 <__afl_return>
