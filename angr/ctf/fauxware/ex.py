@@ -23,7 +23,7 @@ for i in range(len(simgr.deadended)):
     str = simgr.deadended[i].posix.dumps(1)
     if b'Welcome' in str:
         print(simgr.deadended[i], end=' ')
-        print(str)
+        print(simgr.deadended[i].posix.dumps(0))
 '''
 simgr.run(until=lambda sm:len(sm.active) > 1)
 print(simgr)

@@ -31,5 +31,4 @@ sm.use_technique(angr.exploration_techniques.Explorer(find=FIND, avoid=AVOID))
 sm.run()
 
 # get solution
-flag_input = sm.one_found.posix.dumps(0)
-print(repr(flag_input))
+print(sm.found[0].posix.dumps(0).rstrip("\n\x00"))
